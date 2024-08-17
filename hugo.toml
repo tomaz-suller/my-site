@@ -1,4 +1,7 @@
-baseURL = 'blog.t0m.xyz/'
+# baseURL = 'blog.t0m.xyz/'
+# Temporary, until I figure out problem
+# with custom domain DNS
+baseURL = 'tomaz-suller.github.io/'
 languageCode = 'en-gb'
 title = 'tomaz-suller'
 theme = 'PaperMod'
@@ -12,3 +15,33 @@ inline = [['\(', '\)']]
 
 [markup.highlight]
 noClasses = false
+
+[params]
+ShowShareButtons = true
+ShareButtons = ['linkedin', 'reddit', 'whatsapp', 'telegram']
+ShowBreadCrumbs = true
+ShowCopyCodeButtons = true
+
+[params.profileMode]
+enabled = true
+title = "Hi, I'm Tomaz"
+subtitle = 'a computer nerd trying to make the world a better place with AI'
+imageUrl = 'profile.jpg'
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/tomaz-suller'
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://linkedin.com/in/tomaz-suller'
+[[params.profileMode.buttons]]
+name = 'More about me'
+url = 'about/'
+
+[params.assets]
+favicon = 'favicon.ico'
+
+[[menu.main]]
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
+weight = 1

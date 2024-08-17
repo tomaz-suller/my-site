@@ -1,0 +1,36 @@
+:root {
+    /* Solarized */
+    --base03: #002b36;
+    --base02: #073642;
+    --base01: #586e75;
+    --base00: #657b83;
+    --base0: #839496;
+    --base1: #93a1a1;
+    --base2: #eee8d5;
+    --base3: #fdf6e3;
+    /*  */
+    --theme: var(--base3);
+    --entry: var(--base2);
+    --primary: var(--base01);
+    --secondary: var(--base00);
+    --tertiary: var(--base1);
+    --content: var(--base00);
+    --code-block-bg: var(--base2);
+    --code-bg: var(--base2);
+    --border: var(--base2);
+}
+
+.dark {
+    --theme: var(--base03);
+    --entry: var(--base02);
+    --primary: var(--base1);
+    --secondary: var(--base00);
+    --tertiary: var(--base01);
+    --content: var(--base00);
+    --code-block-bg: var(--base02);
+    --code-bg: var(--base02);
+    --border: var(--base02);
+}
+
+code { color:#586e75 !important }
+.dark code { color:#93a1a1 !important }

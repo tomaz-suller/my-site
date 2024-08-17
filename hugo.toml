@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'blog.t0m.xyz/'
 languageCode = 'en-gb'
-title = 'My New Hugo Site'
+title = 'tomaz-suller'
 theme = 'PaperMod'
 
 # Mathematics settings

@@ -35,7 +35,7 @@ If you're curious about the process, read on.
     This way, we're in effect overloading the Chroma stylesheet provided
     by the theme.
 
-1. Add `.dark` before the Solarized Dark config
+1. Add `.dark` before the Solarized Dark config.
     Now you should have a file with duplicated rules like
     ```css
     /* Background */ .bg { color:#586e75;background-color:#eee8d5; }
@@ -166,7 +166,8 @@ queries might not work because of the way PaperMod dealt with things.
 but I didn't realise it then because of a problem with the
 background I'll get to.)
 
-Eventually I had the idea to try and overload the `choma-style.css`
+Eventually I had the idea to try and overload the
+`chroma-style.css`
 file that PaperMod already bundles, but I wasn't sure if that was
 going to work because it was my first time using Hugo. The result
 seemed a bit off since the background colour didn't change with the
@@ -202,6 +203,7 @@ Finally, while I was at it already, I decided to just go all in and
 do the full colour scheme for the website Solarized.
 
 ## Final thoughts
+
 I don't really know why I decided to write about my couple of hours
 looking into these things, but I thought documenting this process,
 going from not knowing anything about something to discovering how

@@ -46,6 +46,9 @@ url = 'https://github.com/tomaz-suller'
 [[params.socialIcons]]
 name = 'linkedin'
 url = 'https://linkedin.com/in/tomaz-suller'
+[[params.socialIcons]]
+name = 'cv'
+url = 'cv.pdf'
 [[params.profileMode.buttons]]
 name = 'More about me'
 url = 'about/'

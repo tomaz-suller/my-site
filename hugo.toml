@@ -14,6 +14,11 @@ This work by [Tomaz Maia Suller](base.t0m.xyz) is licensed under
 ](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
 '''
 
+[services.googleAnalytics]
+ID = 'G-DYJT4RW2E9'
+[privacy.GoogleAnalytics]
+RespectDoNotTrack = true
+
 # Mathematics settings
 [markup.goldmark.extensions.passthrough]
 enable = true

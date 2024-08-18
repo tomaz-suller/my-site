@@ -3,6 +3,8 @@ baseURL = 'blog.t0m.xyz/'
 languageCode = 'en-gb'
 title = 'tomaz-suller'
 theme = 'PaperMod'
+enableRobotsTXT = true
+disableKinds = ['RSS']
 
 # Mathematics settings
 [markup.goldmark.extensions.passthrough]
@@ -34,9 +36,6 @@ url = 'https://linkedin.com/in/tomaz-suller'
 [[params.profileMode.buttons]]
 name = 'More about me'
 url = 'about/'
-
-[params.assets]
-favicon = 'favicon.ico'
 
 [[menu.main]]
 identifier = 'posts'

@@ -18,7 +18,7 @@ noClasses = false
 ShowShareButtons = true
 ShareButtons = ['linkedin', 'reddit', 'whatsapp', 'telegram']
 ShowBreadCrumbs = true
-ShowCopyCodeButtons = true
+ShowCodeCopyButtons = true
 
 [params.profileMode]
 enabled = true

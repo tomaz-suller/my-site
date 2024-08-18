@@ -40,6 +40,8 @@ enabled = true
 title = "Hi, I'm Tomaz"
 subtitle = 'a computer nerd trying to make the world a better place with AI'
 imageUrl = 'profile.jpg'
+imageHeight = 200
+imageWidth = 200
 [[params.socialIcons]]
 name = 'github'
 url = 'https://github.com/tomaz-suller'
@@ -57,4 +59,22 @@ url = 'about/'
 identifier = 'posts'
 name = 'Posts'
 url = '/posts/'
-weight = 1
+weight = 10
+
+[[menu.main]]
+identifier = 'research'
+name = 'Research'
+url = '/research/'
+weight = 20
+
+[[menu.main]]
+identifier = 'projects'
+name = 'Projects'
+url = '/projects/'
+weight = 30
+
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+url = '/about/'
+weight = 90

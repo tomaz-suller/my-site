@@ -1,7 +1,5 @@
-# baseURL = 'blog.t0m.xyz/'
-# Temporary, until I figure out problem
-# with custom domain DNS
-baseURL = 'tomaz-suller.github.io/'
+baseURL = 'blog.t0m.xyz/'
+# baseURL = 'tomaz-suller.github.io/'
 languageCode = 'en-gb'
 title = 'tomaz-suller'
 theme = 'PaperMod'

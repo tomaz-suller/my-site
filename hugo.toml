@@ -5,6 +5,14 @@ title = 'tomaz-suller'
 theme = 'PaperMod'
 enableRobotsTXT = true
 disableKinds = ['RSS']
+copyright =  '''
+This work by [Tomaz Maia Suller](base.t0m.xyz) is licensed under
+[
+    CC BY 4.0
+    {{< inTextImg height=22px, url=https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1 >}}
+    {{< inTextImg height=22px, url=https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1 >}}
+](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
+'''
 
 # Mathematics settings
 [markup.goldmark.extensions.passthrough]

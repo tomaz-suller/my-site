@@ -24,13 +24,13 @@ I was a research assistant for 1 year at Poli-USP, working with neural network m
 along a group with which I published two conference papers.
 I also have 1 year of full-time work experience in data analytics and
 data engineering.
-You can learn more about that in my
+Check out my
 [LinkedIn](https://www.linkedin.com/in/tomaz-suller/)
-or in my [CV](/cv.pdf).
+or my [CV](/cv.pdf) if you'd like to know more.
 
 I'm deeply interested in all aspects of computing, but especially on
-how we can make AI systems more efficient and explainable in a way
-that benefits the most people possible.
+how we can make AI systems more efficient, explainable and available
+in a way that benefits the most people possible.
 I'm always trying to approach things with curiosity in mind, trying
 to challenge assumptions about how things are done so we can do them
 even better.

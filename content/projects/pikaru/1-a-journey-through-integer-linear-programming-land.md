@@ -1,7 +1,6 @@
 +++
 title = 'A Journey Through Integer Linear Programming Land'
 date = 2025-06-02T18:54:46+02:00
-draft = true
 weight = 1
 [params]
 math = true

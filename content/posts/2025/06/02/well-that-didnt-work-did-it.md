@@ -1,7 +1,6 @@
 +++
 title = "Well that didn't work, did it?"
 date = 2025-06-02T14:06:35+02:00
-draft = true
 +++
 
 I could've just deleted the post about

@@ -168,9 +168,9 @@ $$
     \sum_r p^{(r, t)} &= 1 & \forall t \\
     {d_{B_x}}^{(t)} &\ge \pm \vec{B_x} \cdot \vec{{\Delta p}^{(t)}} & \forall t \\
     {d_{B_y}}^{(t)} &\ge \pm \vec{B_y} \cdot \vec{{\Delta p}^{(t)}} & \forall t \\
-    {d_F}^{(t)} &\ge \vec{F} \cdot \vec{{\Delta p}^{(t)}}  - {a_F}^{(t)} & \forall t \\
-    {d_{R_x}}^{(t)} &\ge \vec{R_x} \cdot \vec{{\Delta p}^{(t)}}  - {a_R}^{(t)} & \forall t \\
-    {d_{R_y}}^{(t)} &\ge \vec{R_y} \cdot \vec{{\Delta p}^{(t)}}  - {a_R}^{(t)} & \forall t \\
+    {d_F}^{(t)} &\ge \pm \vec{F} \cdot \vec{{\Delta p}^{(t)}}  - {a_F}^{(t)} & \forall t \\
+    {d_{R_x}}^{(t)} &\ge \pm \vec{R_x} \cdot \vec{{\Delta p}^{(t)}}  - {a_R}^{(t)} & \forall t \\
+    {d_{R_y}}^{(t)} &\ge \pm \vec{R_y} \cdot \vec{{\Delta p}^{(t)}}  - {a_R}^{(t)} & \forall t \\
     {a_F}^{(t)} &\ge \pm  M (\vec{B_x} * \vec{B_y}) \cdot \vec{{\Delta p}^{(t)}} & \forall t \\
     {a_{R}}^{(t)} &\ge \pm  M (\vec{F} * \vec{B_x} * \vec{B_y}) \cdot \vec{{\Delta p}^{(t)}} & \forall t \\
     p^{(r, t)} &\le \overline O^{(r, t)}  + L^{(r, t)} & \forall r, t \\

@@ -6,6 +6,15 @@ weight = 1
 math = true
 +++
 
+[Linear Programming](https://en.wikipedia.org/wiki/Linear_programming) is a
+powerful modelling tool which lets you efficiently find optimal solutions to
+problems described as a linear objective function and linear constraints
+on a set of so called _decision variables_, i.e. what you want to optimise.
+[Integer Linear Programming](https://en.wikipedia.org/wiki/Linear_programming#Integral_linear_programs)
+is just that but applied to problems with integer decision variables rather than
+continuous ones. It's usually through (binary) integer values that you are able to
+describe conditional statements in your model.
+
 ## A first (wrong) model
 
 Ignoring lecture presence constraints, the problem can be modelled as

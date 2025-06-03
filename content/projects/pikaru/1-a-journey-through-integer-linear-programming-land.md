@@ -111,6 +111,8 @@ The idea behind this model is we penalise a solution when it switches
 buildings, floors within a building, or rooms within a floor, but we
 only penalise it for one of these components.
 
+We use the big-$M$ modelling trick to deactivate some of the
+penalisation factors under different circumstances.
 Let's expand the constraint on $x^{(t)}$ to show that more clearly
 
 $$

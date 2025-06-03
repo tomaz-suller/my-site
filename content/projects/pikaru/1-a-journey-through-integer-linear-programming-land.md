@@ -237,6 +237,8 @@ those which are not relevant, so we consider only building cost when
 changing buildings, only floor cost when changing floors in the same 
 building, and only room cost when changing rooms in the same floor of
 the same building.
+The only difference now is the disabling actually works since the
+constraints ensure $a > 0 \; \forall \vec{{\Delta p}^{(t)}}$.
 
 Alright, so we're done then!
 

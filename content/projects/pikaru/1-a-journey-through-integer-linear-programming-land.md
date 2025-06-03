@@ -217,6 +217,21 @@ And the same is true for $a_F$, since their constraints specify they
 must be greater than 0 and _greater than the positive and negative_
 values of the expression. 
 
+We use a similar trick -- introducing two constraints to ensure the
+value is bounded by the absolute -- in the penalisation factors. In effect
+we're _doubling the number of constraints_ in the previous model, as
+when I write
+$$
+{d_F}^{(t)} \ge \pm \vec{F} \cdot \vec{{\Delta p}^{(t)}}  - {a_F}^{(t)} \quad \forall t \\
+$$
+I mean both
+$$
+\begin{cases}
+{d_F}^{(t)} \ge + \vec{F} \cdot \vec{{\Delta p}^{(t)}}  - {a_F}^{(t)} \quad \forall t \\
+{d_F}^{(t)} \ge - \vec{F} \cdot \vec{{\Delta p}^{(t)}}  - {a_F}^{(t)} \quad \forall t \\
+\end{cases}
+$$
+
 The idea behind the objective components remains the same: we disable
 those which are not relevant, so we consider only building cost when
 changing buildings, only floor cost when changing floors in the same 

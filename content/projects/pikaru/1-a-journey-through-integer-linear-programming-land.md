@@ -137,9 +137,12 @@ by forcing $x^{(t)} \ge F_i {\Delta p}^{(t)}_i$.
 ### How does it _not_ work
 
 One very clear flaw in this model is that we may end up forcing the
-penalisation factors to be negative in the constraints, depending on
+penalisation factors to be zero in the constraints, depending on
 how we move (for example, moving from a higher floor to a lower 
-floor). 
+floor). That's because ${F}_i p_i^{(t)} - F_i p_i^{(t-1)}$ in
+the example we just saw may end up being negative, meaning the
+penalisation for changing rooms would be 0 even though we are
+indeed changing.
 
 Another more subtle flaw is we're penalising moving arbitrarily.
 In _Politecnico_ it is usually the case that, say, building $X$ and
